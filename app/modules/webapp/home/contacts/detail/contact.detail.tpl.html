@@ -1,0 +1,8 @@
+<h2>contact.detail.tpl.html</h2>
+<div>
+  <h2>{{contactDetailCtrl.contact.name}}</h2>
+  <dl>
+    <dt ng-repeat-start="item in contactDetailCtrl.contact.items">{{item.type}}</dt>
+    <dd ng-repeat-end>{{item.value}}</dd>
+  </dl>
+</div>
